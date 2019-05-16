@@ -12,3 +12,4 @@ G:\AllFiles\Projeler\CSharpProjeler\ASPNETCoreTutorial\TutorialAuthentication\Tu
 G:\AllFiles\Projeler\CSharpProjeler\ASPNETCoreTutorial\TutorialAuthentication\TutorialAuthentication\obj\Debug\netcoreapp2.1\TutorialAuthentication.RazorTargetAssemblyInfo.cache
 G:\AllFiles\Projeler\CSharpProjeler\ASPNETCoreTutorial\TutorialAuthentication\TutorialAuthentication\obj\Debug\netcoreapp2.1\TutorialAuthentication.dll
 G:\AllFiles\Projeler\CSharpProjeler\ASPNETCoreTutorial\TutorialAuthentication\TutorialAuthentication\obj\Debug\netcoreapp2.1\TutorialAuthentication.pdb
+G:\AllFiles\Projeler\CSharpProjeler\ASPNETCoreTutorial\TutorialAuthentication\TutorialAuthentication\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

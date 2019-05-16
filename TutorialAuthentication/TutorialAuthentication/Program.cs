@@ -14,11 +14,22 @@ namespace TutorialAuthentication
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+                
+            try
+            {
+                CreateWebHostBuilder(args).Build().Run();
+            } catch(Exception ex)
+            {
+                Console.WriteLine("An error happened: " + ex.Message);
+            }
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            //to change the port number
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseStartup<Startup>()
+                .UseUrls("http://localhost:5050");
     }
 }
