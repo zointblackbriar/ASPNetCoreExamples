@@ -32,6 +32,9 @@ namespace TutorialAuthentication
                 {
                     options.Audience = "http://localhost:5001/";
                     options.Authority = "http://localhost:5050/";
+                    //In order to avoid the following error
+                    //The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+                    options.RequireHttpsMetadata = false;
                     
                     options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
                     {
